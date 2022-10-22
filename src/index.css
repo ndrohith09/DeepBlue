@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 /* body{
@@ -12,15 +12,15 @@
     background-repeat: no-repeat;
 } */
 
-video{
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
+video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
-.content{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
+.content {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
 }

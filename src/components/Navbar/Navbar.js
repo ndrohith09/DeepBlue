@@ -4,7 +4,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="navbar">
-      <h1>Logo</h1>
+      <h1>DeepBlue</h1>
       <div className="links">
         <a className="link">Home</a>
         <a className="link">Github</a>
