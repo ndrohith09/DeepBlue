@@ -1,49 +1,47 @@
-.navbar{
-    box-shadow: 0 0 5px 0 ;
-    margin: 20px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 10px;
-    position: sticky;
-    background: inherit;
-    backdrop-filter: blur(10px);
+.navbar {
+  box-shadow: 0 0 5px 0 black !important;
+  margin: 32px !important;
+  padding: 15px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  border-radius: 10px !important;
+  position: sticky !important;
+  background: inherit !important;
+  backdrop-filter: blur(10px) !important;
 }
-.navbar > h1{
-    color: white;
+.navbar > h1 {
+  color: white;
 }
-.links{
-    display: flex;
-    align-items: center;
-    
-}
-
-.link{
-    text-decoration: none;
-    font-size: 20px;
-    margin-left: 20px;
-    color: white;
+.links {
+  display: flex;
+  align-items: center;
 }
 
-.link:hover{
-    color: aqua;
-    transition: all 0.2s ease-in;
-    cursor: pointer;
+.link {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
 }
 
-.signin{
-padding: 10px;
-margin-left: 15px;
-font-size: 20px;
-background-color:transparent;
-border: 1px solid rgb(123, 123, 123);
-color: white;
-border-radius: 7px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+.link:hover {
+  color: aqua;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
 }
-.signin:hover{
 
-    cursor: pointer;
-    border: 1px solid black;
+.signin {
+  padding: 10px;
+  margin-left: 15px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 1px solid rgb(123, 123, 123);
+  color: white;
+  border-radius: 7px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+.signin:hover {
+  cursor: pointer;
+  border: 1px solid black;
 }

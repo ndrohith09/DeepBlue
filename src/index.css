@@ -6,8 +6,21 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body{
-    background-image: url("../public/assets/bg1.jpg") !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
+/* body{
+    background-image: url("../public/assets/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+video{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.content{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
 }
